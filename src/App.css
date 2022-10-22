@@ -1,38 +1,93 @@
 .App {
+  font-family: sans-serif;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
+body{
+   background-color: lightgray ; 
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  display: flex;
+  justify-content:space-evenly;  
+flex-wrap:unset; 
+ 
+}
+.plans{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+/* :root{
+  font-size: 1rem; */
+/* }
+.card{
   color: white;
+  border-radius: 20px;
+  margin: 16px;
+  padding: 160px;
+  width: 270px;
+  height: 450px;
+  
+ display: flex;
+} */
+/* .features{
+  list-style: none; 
+   text-align: left;
+  border-top: 1px solid slategray;
+  padding-top: 10px;
+}
+.features >li{
+  margin-bottom: 0.8rem;
+}
+.features > li::marker{
+  content:"✔️ " ;
+}
+.card:nth-child(1) .features > li:nth-child(n + 5)::marker{
+  content:"✖️ " ;
+}
+.card:nth-child(1) .features > li:nth-child(n + 5){
+opacity: 80%;
+}
+.card:nth-child(2) .features > li:nth-child(n + 8)::marker{
+  content:"✖️ " ;
 }
 
-.App-link {
-  color: #61dafb;
+.card:nth-child(2) .features > li:nth-child(n + 8){
+ opacity: 80%; ;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.button{
+  width:200px;
+  padding: 5px;
+  border-radius: 15px;
+  background-color: #0d6efd;
+  border-color: blue;
+  font-size: medium;
+  letter-spacing: 2px;
+  font-weight:bold;
+  color: aliceblue;
+  opacity: 80%;
+  
+  
+}
+.button:hover{
+ 
+  background-color: blue;
+  opacity: 70%;
+}
+.price{
+font-size: 2rem;
+margin: 16px;
+}
+.prices{
+  font-size: 0.8rem;
+} */
+.name{
+  font-size: 1rem;
+  color: slategray;
+} 
+name{
+  color: red;
+}
+.heading{
+  color:orange;
 }
